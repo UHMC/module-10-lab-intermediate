@@ -1,4 +1,4 @@
-Nifty Assignment---Creating an ERC20 token
+NIFTY Assignment - Creating an ERC20 token
 =======================
 # Background
 Smart contracts can be implemented into blockchain technology through the Ethereum blockchain network. They allow for binding agreements between network participants that are handled by network consensus instead of a third party. 
@@ -38,3 +38,7 @@ On the top right corner of the webpage, change the network to “Rinkeby (ethers
 19. After all the lines listed are edited, click on “Start to compile” on the top right corner of the Remix IDE.
 20. Click the drop down box near the “Start to compile” button and click on the name of your token. This is referencing the name of the constructor method. 
 21. Click on details and copy the text under “BYTECODE.” 
+
+| Line | Characters to change | Explanation |
+| --- | --- | --- |
+| 10 | [test] | change test to something |
