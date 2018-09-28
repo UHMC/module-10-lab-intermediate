@@ -1,6 +1,9 @@
-Nifty Assignment --- Creating an ERC20 token
+Nifty Assignment---Creating an ERC20 token
 =======================
+# Background
+Smart contracts can be implemented into blockchain technology through the Ethereum blockchain network. They allow for binding agreements between network participants that are handled by network consensus instead of a third party. 
 
+# Meta-information
 | Attribute | Explanation |
 | ------------- | ------------- |
 | Summary | Create a basic smart contract on an Ethereum test network while going over every method of implementation of the ERC20 specification  |
@@ -11,3 +14,4 @@ Nifty Assignment --- Creating an ERC20 token
 | Weaknesses | It may be difficult for students to extend their first smart contract. They might require more in-depth knowledge about how transactions work in blockchain settings. | 
 | Dependencies | Requires the understanding of implementing interfaces in an object-oriented language. It also requires the understanding of blockchain transactions in order to further extend past the assignment. |
 | Variants | Could be used in an introductory course of OOP languages, as means to introduce how to implement a specification. |
+
