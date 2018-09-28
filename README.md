@@ -41,4 +41,4 @@ On the top right corner of the webpage, change the network to “Rinkeby (ethers
 
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
-| 10 | [test] | change test to something |
+|  4 | [insert token name here] | Add your own token name |
