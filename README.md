@@ -41,4 +41,17 @@ On the top right corner of the webpage, change the network to “Rinkeby (ethers
 
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
-|  4 | [insert token name here] | Add your own token name |
+| 4 | [insert token name here] | Add your own token name |
+| 6 | [insert wallet address to deploy here] | - |
+| 7 | [insert token symbol here] | - |
+| 8 | [insert token name here] | - |
+| 9 | [insert total supply of tokens here] | - |
+| 10 | [insert decimal denomination per token, up to 18] | - |
+| 107 | [TokenName] | - |
+| 120 | [TokenName] | - |
+| 121 | [insert token symbol here] | - |
+| 122 | [insert token name here] | - |
+| 123 | [insert token decimal denomination here] | - |
+| 125 | [insert token supply here] | - |
+| 126 | [insert your wallet address here] | - |
+| 127 | [insert your wallet address here] | - |
