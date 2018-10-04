@@ -26,7 +26,7 @@ This assignment goes through the process of contract creation. It goes through t
 4. Once a wallet that is compatible with the Rinkeby testnet is created, one can obtain Rinkeby ETH at no cost, this can be done using the faucet service on http://rinkeby.io by clicking the link on the left side called “Crypto faucet” and follow their instructions to obtain the ETH.
 
 ## Editing the contract.sol file
-1. Download the following sample contract and open it using the Remix Solidity IDE: Sample contract: https://github.com/UHMC/sample-smart-contract/blob/master/contract.sol Remix Solidity IDE: https://remix.ethereum.org/
+1. [Download the sample contract](contract.sol) and [open it using the Remix Solidity IDE.](https://remix.ethereum.org/)
 
 ### Editing the comment block
 | Line | Characters to change | Explanation |
