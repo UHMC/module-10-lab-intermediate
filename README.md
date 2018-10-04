@@ -38,7 +38,7 @@ This assignment goes through the process of contract creation. Students will bri
 | 9 | [insert total supply of tokens here] | Total number of tokens in existance. |
 | 10 | [insert decimal denomination per token, up to 18] | How do you want to break apart your token? Ethereum allows a maximum of 18 decimals. |
 
-### Editing the contract constructor function
+### Editing the contract constructor method
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
 | 107 | [TokenName] | The name of your token in CamelCase, as per Solidity convention. |
