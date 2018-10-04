@@ -3,7 +3,7 @@ Nifty Assignment: Creating an ERC20 token
 # Background
 Smart contracts can be implemented through the use of blockchain technology with the Ethereum network. They allow for binding agreements between network participants that are handled by network consensus instead of a third party.
 
-This assignment goes through the process of contract creation. It goes through the implementation of the ERC20 interface in Solidity programming. Implementation of interfaces is a technique taught in CS1 classroom environments.
+This assignment goes through the process of contract creation. Students will briefly implement the ERC20 interface using Solidity programming. Implementation of interfaces is a technique taught in CS1 classroom environments.
 
 # Meta-information
 | Attribute | Explanation |
