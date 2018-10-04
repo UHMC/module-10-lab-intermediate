@@ -20,7 +20,7 @@ Smart contracts can be implemented into blockchain technology through the Ethere
 1. Navigate to MyEtherWallet, a website for offline wallet access, which can be retrieved at https://www.myetherwallet.com/ 
 On the top right corner of the webpage, change the network to “Rinkeby (etherscan.io)” in order to create a wallet compatible with that test network.
 2. Create a wallet by entering a password that will be used to encrypt the wallet, and follow the prompts. Save your wallet’s JSON file and the private key.
-3. Once a wallet that is compatible with the Rinkeby testnet is created, one can obtain Rinkeby ETH at no cost, this can be done using the faucet service on http://rinkeby,io by clicking the link on the left side called “Crypto faucet” and follow their instructions to obtain the ETH.
+3. [contract.sol](Once a wallet that is compatible with) the Rinkeby testnet is created, one can obtain Rinkeby ETH at no cost, this can be done using the faucet service on http://rinkeby,io by clicking the link on the left side called “Crypto faucet” and follow their instructions to obtain the ETH.
 4. Download the following sample contract and open it using the Remix Solidity IDE: Sample contract: https://github.com/UHMC/sample-smart-contract/blob/master/contract.sol Remix Solidity IDE: https://remix.ethereum.org/ 
 5. Go to line 4 and remove [insert token name here], and add your own token name.
 6. Go to line 6 and remove [insert wallet address to deploy here], and add the address you created using MyEtherWallet
