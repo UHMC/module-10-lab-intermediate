@@ -29,6 +29,8 @@ This assignment goes through the process of contract creation. Students will bri
 1. [Download the sample contract](contract.sol) and [open it using the Remix Solidity IDE.](https://remix.ethereum.org/)
 
 ### Editing the comment block
+This section will not affect the contract code. It is written to practice documentation and maintainance of code. 
+
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
 | 4 | [insert token name here] | Name for your token. |
