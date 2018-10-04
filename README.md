@@ -37,6 +37,8 @@ Smart contracts can be implemented into blockchain technology through the Ethere
 | 10 | [insert decimal denomination per token, up to 18] | How do you want to break apart your token? Ethereum allows a maximum of 18 decimals. |
 
 ### Editing the contract constructor function
+| Line | Characters to change | Explanation |
+| --- | --- | --- |
 | 107 | [TokenName] | The name of your token in CamelCase, as per Solidity convention |
 | 120 | [TokenName] | The same input as line 120. |
 | 121 | [insert token symbol here] | Write your token symbol here, in all CAPS |
