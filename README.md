@@ -34,7 +34,7 @@ This assignment goes through the process of contract creation. Students will bri
 | 4 | [insert token name here] | Name for your token. |
 | 6 | [insert wallet address to deploy here] | Address you created earlier. The smart contract must take funds from a wallet to initialize. |
 | 7 | [insert token symbol here] | Symbol to identify your token shorthand. (example: "UHMC") |
-| 8 | [insert token name here] | Name of the token, flavoring. |
+| 8 | [insert token name here] | Name of the token. |
 | 9 | [insert total supply of tokens here] | Total number of tokens in existance. |
 | 10 | [insert decimal denomination per token, up to 18] | How do you want to break apart your token? Ethereum allows a maximum of 18 decimals. |
 
@@ -42,11 +42,11 @@ This assignment goes through the process of contract creation. Students will bri
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
 | 107 | [TokenName] | The name of your token in CamelCase, as per Solidity convention |
-| 120 | [TokenName] | The same input as line 120. |
-| 121 | [insert token symbol here] | Write your token symbol here, in all CAPS |
-| 122 | [insert token name here] | Write your token name here |
+| 120 | [TokenName] | The same input as line 107. |
+| 121 | [insert token symbol here] | Write your token symbol here, in all CAPS. |
+| 122 | [insert token name here] | Write your token name here. |
 | 123 | [insert token decimal denomination here] | Write the decimal denomination |
-| 125 | [insert token supply here] | Write the token supply, read line 124 to learn how to do this |
+| 125 | [insert token supply here] | Write the token supply, read line 124 to learn how to do this. |
 | 126 | [insert your wallet address here] | Paste your wallet address here, this line and line 127 create the original transfer of Ethereum to the smart contract in order to initialize it. |
 | 127 | [insert your wallet address here] | Paste your wallet address here, see above. |
 
