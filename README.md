@@ -41,11 +41,11 @@ This assignment goes through the process of contract creation. Students will bri
 ### Editing the contract constructor function
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
-| 107 | [TokenName] | The name of your token in CamelCase, as per Solidity convention |
+| 107 | [TokenName] | The name of your token in CamelCase, as per Solidity convention. |
 | 120 | [TokenName] | The same input as line 107. |
 | 121 | [insert token symbol here] | Write your token symbol here, in all CAPS. |
 | 122 | [insert token name here] | Write your token name here. |
-| 123 | [insert token decimal denomination here] | Write the decimal denomination |
+| 123 | [insert token decimal denomination here] | Write the decimal denomination. |
 | 125 | [insert token supply here] | Write the token supply, read line 124 to learn how to do this. |
 | 126 | [insert your wallet address here] | Paste your wallet address here, this line and line 127 create the original transfer of Ethereum to the smart contract in order to initialize it. |
 | 127 | [insert your wallet address here] | Paste your wallet address here, see above. |
