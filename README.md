@@ -6,6 +6,7 @@ Smart contracts can be implemented through the use of blockchain technology with
 This assignment goes through the process of contract creation. Students will briefly implement the ERC20 interface using Solidity programming. Implementation of interfaces is a technique taught in CS1 classroom environments.
 
 # Meta-information
+
 | Attribute | Explanation |
 | ------------- | ------------- |
 | Summary | Create a basic smart contract on an Ethereum test network while going over every method of implementation of the ERC20 specification  |
@@ -41,6 +42,7 @@ This section will not affect the contract code. It is written to practice docume
 | 10 | [insert decimal denomination per token, up to 18] | How do you want to break apart your token? Ethereum allows a maximum of 18 decimals. |
 
 ### Editing the contract constructor method
+
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
 | 107 | [TokenName] | The name of your token in CamelCase, as per Solidity convention. |
