@@ -58,11 +58,11 @@ This section will not affect the contract code. It is written to practice docume
 1. After all the lines listed are edited, click on “Start to compile” on the top right corner of the Remix IDE.
 2. Click the drop down box near the “Start to compile” button and click on the name of your token. This is referencing the name of the constructor method. 
 3. Click on details and copy the text under “BYTECODE.” 
-4. Go to MyEtherWallet https://www.myetherwallet.com/  and navigate to the “Contracts” tab and click on “Deploy Contract”
+4. Go to [MyEtherWallet](https://www.myetherwallet.com/)  and navigate to the “Contracts” tab and click on “Deploy Contract”
 5. Paste the BYTECODE you copied earlier into the ByteCode box.
 6. Go to Private key, then paste your private key and unlock your wallet.
 7. Finally, go to “Sign Transaction” and click on “Deploy Transaction”
-8. Click on the transaction tx to view the contract, or go to https://rinkeby.etherscan.io/ and search your wallet address, and you will see your contract creation if everything went without problems.
+8. Click on the transaction tx to view the contract, or go to [Etherscan.io](https://rinkeby.etherscan.io/) and search your wallet address, and you will see your contract creation if everything went without problems.
 
 # Credits
 Assignment possible thanks to the work of [Moritz Neto](https://twitter.com/mrtzneto) for the original contract.
