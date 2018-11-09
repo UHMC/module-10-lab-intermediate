@@ -20,7 +20,7 @@ This assignment goes through the process of contract creation. Students will bri
 
 # Assignment instructions
 
-## Setting up your wallet and test Ethereum
+## Setting up your wallet and test Ethereum (20 minutes)
 1. Navigate to [MyEtherWallet](https://www.myetherwallet.com/), a website for offline wallet access.  
 2. On the top right corner of the webpage, change the network to “Rinkeby (etherscan.io)” in order to create a wallet compatible with that test network.
 3. Create a wallet by entering a password that will be used to encrypt the wallet, and follow the prompts. Save your wallet’s JSON file and the private key.
@@ -29,7 +29,7 @@ This assignment goes through the process of contract creation. Students will bri
 ## Editing the contract.sol file
 1. [Download the sample contract](contract.sol) and [open it using the Remix Solidity IDE.](https://remix.ethereum.org/)
 
-### Editing the comment block
+### Editing the comment block (10 minutes to 20 minutes)
 This section will not affect the contract code. It is written to practice documentation and maintainance of code. 
 
 | Line | Characters to change | Explanation |
@@ -41,7 +41,7 @@ This section will not affect the contract code. It is written to practice docume
 | 9 | [insert total supply of tokens here] | Total number of tokens in existance. |
 | 10 | [insert decimal denomination per token, up to 18] | How do you want to break apart your token? Ethereum allows a maximum of 18 decimals. |
 
-### Editing the contract constructor method
+### Editing the contract constructor method (10 minutes to 20 minutes)
 
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ This section will not affect the contract code. It is written to practice docume
 | 126 | [insert your wallet address here] | Paste your wallet address here, this line and line 127 create the original transfer of Ethereum to the smart contract in order to initialize it. |
 | 127 | [insert your wallet address here] | Paste your wallet address here, see above. |
 
-## Deploying your contract to the Rinkeby testnet
+## Deploying your contract to the Rinkeby testnet (20 minutes to 30 minutes)
 1. After all the lines listed are edited, click on “Start to compile” on the top right corner of the Remix IDE.
 2. Click the drop down box near the “Start to compile” button and click on the name of your token. This is referencing the name of the constructor method. 
 3. Click on details and copy the text under “BYTECODE.” 
