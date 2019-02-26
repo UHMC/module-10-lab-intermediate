@@ -46,7 +46,6 @@ This section will not affect the contract code. It is written to practice docume
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
 | 107 | [TokenName] | The name of your token in CamelCase, as per Solidity convention. |
-| 120 | [TokenName] | The same input as line 107. |
 | 121 | [insert token symbol here] | Write your token symbol here, in all CAPS. |
 | 122 | [insert token name here] | Write your token name here. |
 | 123 | [insert token decimal denomination here] | Write the decimal denomination. |
