@@ -21,10 +21,18 @@ This assignment goes through the process of contract creation. Students will bri
 # Assignment instructions
 
 ## Setting up your wallet and test Ethereum
-1. Navigate to [MyEtherWallet](https://www.myetherwallet.com/), a website for offline wallet access.  
-2. On the top right corner of the webpage, change the network to “Rinkeby (etherscan.io)” in order to create a wallet compatible with that test network.
-3. Create a wallet by entering a password that will be used to encrypt the wallet, and follow the prompts. Save your wallet’s JSON file and the private key.
-4. Once a wallet that is compatible with the Rinkeby testnet is created, one can obtain Rinkeby ETH at no cost, this can be done using the faucet service on http://rinkeby.io by clicking the link on the left side called “Crypto faucet” and follow their instructions to obtain the ETH.
+1. Navigate to [MetaMask](https://metamask.io/) and install the extension for your browser (feel free to watch the introduction video, too).
+2. Click the get started button and then click the create a wallet button.
+3. Agree or decline the anonymous usage data collection.
+4. Create a new, secure password. You can use [How Secure Is My Password](https://howsecureismypassword.net/) to check (be careful of similar services).
+5. Enter and confirm your password in MetaMask, and click to acknowledge you agree to the Terms of Use (if you do). Then click create.
+6. It is advisable to read the information on the next page and store your mnemonic phrase accordingly. Remember: this is for your eyes only, forever. It is all the information someone needs to someday steal all of the future value you may have in this wallet. And if you lose it, no-one can help you recover it.
+7. Confirm you have your mnemonic phrase properly stored and accessible to you by clicking the words on the next page in the correct order. Then proceed, reading along the way, until you see your account balance. You should have 0 ETH ($0.00 USD).
+8. In the top right, you should see a dropdown with 'Main Ethereum Network'. Click this and select 'Rinkeby Test Network'.
+9. Click on the 'DEPOSIT' button to the right of your balance and in the overlay that appears, click 'GET ETHER' by Test Faucet.
+10. A new tab sould open at https://www.rinkeby.io/#stats. On the left border of this page, click the middle button labeled 'Crypto Faucet'.
+11. For the next step, Twitter is recommended, but you may use any listed option which works for you. Follow the instructions on the page you are redirected to in order to get your wallet funded with test currency. (If using Twitter, be sure to use the link to the tweet itself which you pasted your wallet's public address into.)
+12. Wait until your account gets funded (up to 8 hours, 1 day, or 3 days, depending on your choice \[8 hours recommended\], but it may be as little as a few seconds or minutes).
 
 ## Editing the contract.sol file
 1. [Download the sample contract](contract.sol) and [open it using the Remix Solidity IDE.](https://remix.ethereum.org/)
