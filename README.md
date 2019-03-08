@@ -75,4 +75,5 @@ This section will not affect the contract code. It is written to practice docume
 7. You can now interact with your contract by clicking the arrow on the left side of your deployed contract (in Remix) and then filling out the fields and clicking the buttons corresponding to methods in the contract. For example, clicking owner should return your wallet's address.
 
 # Credits
-Assignment possible thanks to the work of [Moritz Neto](https://twitter.com/mrtzneto) for the original contract.
+Assignment possible thanks to the work of [Moritz Neto](https://twitter.com/mrtzneto) for the original contract.  
+Special thanks to [James Maupin](https://github.com/jmsMaupin1) for help with testing and feedback.
