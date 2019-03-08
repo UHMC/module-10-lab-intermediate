@@ -45,7 +45,7 @@ This section will not affect the contract code. It is written to practice docume
 | 4 | [insert token name here] | Name for your token. |
 | 6 | [insert wallet address to deploy here] | Address you created earlier. The smart contract must take funds from a wallet to initialize. |
 | 7 | [insert token symbol here] | Symbol to identify your token shorthand. (example: "UHMC") |
-| 8 | [insert token name here] | Name of the token. |
+| 8 | [insert token name here] | Name for your token. |
 | 9 | [insert total supply of tokens here] | Total number of tokens in existance. |
 | 10 | [insert decimal denomination per token, up to 18] | How do you want to break apart your token? Ethereum allows a maximum of 18 decimals. |
 
