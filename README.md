@@ -63,13 +63,16 @@ This section will not affect the contract code. It is written to practice docume
 
 ## Deploying your contract to the Rinkeby testnet
 1. After all the lines listed are edited, click on “Start to compile” on the top right corner of the Remix IDE.
-2. Click the drop down box near the “Start to compile” button and click on the name of your token. This is referencing the name of the constructor method. 
-3. Click on details and copy the text under “BYTECODE.” 
-4. Go to [MyEtherWallet](https://www.myetherwallet.com/)  and navigate to the “Contracts” tab and click on “Deploy Contract”
-5. Paste the BYTECODE you copied earlier into the ByteCode box.
-6. Go to Private key, then paste your private key and unlock your wallet.
-7. Finally, go to “Sign Transaction” and click on “Deploy Transaction”
-8. Click on the transaction tx to view the contract, or go to [Etherscan.io](https://rinkeby.etherscan.io/) and search your wallet address, and you will see your contract creation if everything went without problems.
+2. After successful compilation, click on the 'Run' tab.
+3. The four fields should already be filled out with:
+    * Environment: Injected Web3 Rinkeby
+    * Account: \[your wallet address\]
+    * Gas limit: 3000000
+    * Value 0 wei
+4. In the next box, select the name of your coin in the dropdown, then click the 'Deploy' button.
+5. Click on the MetaMask plugin icon in the top right of your browser, then click 'CONFIRM' in the popup to allow the transaction.
+6. If all went well, you should now see your contract in the Deployed Contracts section in Remix. You may also find it by searching your wallet address on [rinkeby.etherscan.io](https://rinkeby.etherscan.io/) or navigating through the interface in the MetaMask plugin.
+7. You can now interact with your contract by clicking the arrow on the left side of your deployed contract (in Remix) and then filling out the fields and clicking the buttons corresponding to methods in the contract. For example, clicking owner should return your wallet's address.
 
 # Credits
 Assignment possible thanks to the work of [Moritz Neto](https://twitter.com/mrtzneto) for the original contract.
