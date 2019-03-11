@@ -1,4 +1,4 @@
-Nifty Assignment: Creating an ERC20 token
+Module 7b: Smart Contract / Creating An ERC20 Token
 =======================
 # Background
 Smart contracts can be implemented through the use of blockchain technology with the Ethereum network. They allow for binding agreements between network participants that are handled by network consensus instead of a third party.
