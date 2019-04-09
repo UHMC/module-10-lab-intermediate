@@ -10,7 +10,7 @@ This assignment goes through the process of contract creation. Students will bri
 | Attribute | Explanation |
 | ------------- | ------------- |
 | Summary | Create a basic smart contract on an Ethereum test network while going over every method of implementation of the ERC20 specification  |
-| Topics  | Solidity programming, blockchain development  |
+| Topics | Solidity programming, blockchain development  |
 | Audience | Appropriate for CS1 or a later course. |
 | Difficulty | Completing the assignment is easy, as it is just editing a contract and deploying it. However, full understanding and extension of the contract can be difficult. |
 | Strengths | The strength of this assignment is that it allows students to get exposed to technology that they hear about all the time (blockchain) and creates a seed of learning that they can research further. |
