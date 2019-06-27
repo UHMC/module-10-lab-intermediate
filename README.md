@@ -34,8 +34,13 @@ This assignment goes through the process of contract creation. Students will bri
 11. For the next step, Twitter is recommended, but you may use any listed option which works for you. Follow the instructions on the page you are redirected to in order to get your wallet funded with test currency. (If using Twitter, be sure to use the link to the tweet itself which you pasted your wallet's public address into.)
 12. Wait until your account gets funded (up to 8 hours, 1 day, or 3 days, depending on your choice \[8 hours recommended\], but it may be as little as a few seconds or minutes).
 
-## Editing the contract.sol file
-1. [Download the sample contract](contract.sol) and [open it using the Remix Solidity IDE.](https://remix.ethereum.org/)
+## Creating the contract.sol file
+1. Navigate to [Remix at remix.ethereum.org][Remix].
+2. In Remix, create a new file named `contract.sol` by clicking the plus symbol at the top left.
+    ![plus-symbol.png](screenshots/plus-symbol.png)
+    ![create-new-file.png](screenshots/create-new-file.png)
+3. [Copy the sample contract](code/contract.sol) and paste into the newly created file in Remix.
+    ![code-pasted.png](screenshots/code-pasted.png)
 
 ### Editing the comment block
 This section will not affect the contract code. It is written to practice documentation and maintainance of code. 
