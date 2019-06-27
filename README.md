@@ -67,6 +67,21 @@ This section will not affect the contract code. It is written to practice docume
 | 127 | [insert your wallet address here] | Paste your wallet address here, see above. |
 
 ## Deploying your contract to the Rinkeby testnet
+1. Click on the plugin icon ![plug-icon.png](screenshots/plug-icon.png) in the left-most pane of Remix.      ![left-icon-pane.png](screenshots/left-icon-pane.png)
+2. Activate the `Deploy & Run Transactions` and `Solidity Compiler` plugins.
+    ![plugins-to-activate.png](screenshots/plugins-to-activate.png)
+    You should see two new icons in the leftmost pane: one, the solidity compiler, looks like an "s" ![solidity-compiler-icon.png](screenshots/solidity-compiler-icon.png) and the other, deploy and run, is the ethereum symbol with an arrow to the right ![deploy-and-run-icon.png](screenshots/deploy-and-run-icon.png).      ![activated-plugin-icons.png](screenshots/activated-plugin-icons.png)  6. Click the solidity compiler plugin icon ![solidity-compiler-icon.png](screenshots/solidity-compiler-icon.png).
+3. Click the `Compile hello_world.sol` button and wait for compilation to complete.    ![compile-button.png](screenshots/compile-button.png)
+    If all went well, you should see a check mark next to the solidity compiler icon.
+    ![compiler-checkmark.png](screenshots/compiler-checkmark.png)
+4. Click the deploy-and-run plugin icon ![deploy-and-run-icon.png](screenshots/deploy-and-run-icon.png), and then click the orange `Deploy` button ![orange-deploy-button.png](screenshots/orange-deploy-button.png).    ![deploy-and-run-view.png](screenshots/deploy-and-run-view.png)  9. A smart contract, **HelloWorld** will be deployed in memory.
+    ![contract-deployed.png](screenshots/contract-deployed.png)
+5. Click the small arrow to the left of the deployed contract address to reveal the function calls available.
+    ![deployed-contract-view.png](screenshots/deployed-contract-view.png)  11. Click on the _printHello_ function to see the output "0: string: Hello, World".
+    ![print-hello-called.png](screenshots/print-hello-called.png)
+6. Click on the _die_ function to remove the smart contract from the blockchain.
+    ![die-called.png](screenshots/die-called.png)
+
 1. After all the lines listed are edited, click on “Start to compile” on the top right corner of the Remix IDE.
 2. After successful compilation, click on the 'Run' tab.
 3. The four fields should already be filled out with:
