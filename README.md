@@ -36,11 +36,11 @@ This assignment goes through the process of contract creation. Students will bri
 
 ## Creating the contract.sol file
 1. Navigate to [Remix at remix.ethereum.org][Remix].
-2. In Remix, create a new file named `contract.sol` by clicking the plus symbol at the top left.
-    ![plus-symbol.png](screenshots/plus-symbol.png)
-    ![create-new-file.png](screenshots/create-new-file.png)
-3. [Copy the sample contract](code/contract.sol) and paste into the newly created file in Remix.
-    ![code-pasted.png](screenshots/code-pasted.png)
+2. In Remix, create a new file named `contract.sol` by clicking the plus symbol at the top left.  
+    ![plus-symbol.png](screenshots/plus-symbol.png)  
+    ![create-new-file.png](screenshots/create-new-file.png)  
+3. [Copy the sample contract](code/contract.sol) and paste into the newly created file in Remix.  
+    ![code-pasted.png](screenshots/code-pasted.png)  
 
 ### Editing the comment block
 This section will not affect the contract code. It is written to practice documentation and maintainance of code. 
