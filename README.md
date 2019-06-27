@@ -78,19 +78,23 @@ This section will not affect the contract code. It is written to practice docume
     ![compile-button.png](screenshots/compile-button.png)  
     If all went well, you should see a check mark next to the solidity compiler icon.  
     ![compiler-checkmark.png](screenshots/compiler-checkmark.png)  
-5. Click the deploy-and-run plugin icon ![deploy-and-run-icon.png](screenshots/deploy-and-run-icon.png), and then click the orange `Deploy` button ![orange-deploy-button.png](screenshots/orange-deploy-button.png).  
+5. Click the deploy-and-run plugin icon ![deploy-and-run-icon.png](screenshots/deploy-and-run-icon.png)
+6. The four fields should already be filled out with:
+    * Environment: Injected Web3 Rinkeby
+    * Account: \[your wallet address\]
+    * Gas limit: 3000000
+    * Value 0 wei
+7. Click the orange `Deploy` button ![orange-deploy-button.png](screenshots/orange-deploy-button.png).  
     ![deploy-and-run-view.png](screenshots/deploy-and-run-view.png)  
-6. A smart contract, **[TokenName]** will be deployed to the blockchain.  
+8. A smart contract, **[TokenName]** will be deployed to the blockchain.  
     ![contract-deployed.png](screenshots/contract-deployed.png)  
-7. Click the small arrow to the left of the deployed contract address to reveal the function calls available.  
+9. Click the small arrow to the left of the deployed contract address to reveal the function calls available.  
     ![deployed-contract-view.png](screenshots/deployed-contract-view.png)  
-8. Click on the _printHello_ function to see the output "0: string: Hello, World".  
+10. Click on the _printHello_ function to see the output "0: string: Hello, World".  
     ![print-hello-called.png](screenshots/print-hello-called.png)  
-9. Click on the _die_ function to remove the smart contract from the blockchain.  
+11. Click on the _die_ function to remove the smart contract from the blockchain.  
     ![die-called.png](screenshots/die-called.png)  
 
-1. After all the lines listed are edited, click on “Start to compile” on the top right corner of the Remix IDE.
-2. After successful compilation, click on the 'Run' tab.
 3. The four fields should already be filled out with:
     * Environment: Injected Web3 Rinkeby
     * Account: \[your wallet address\]
