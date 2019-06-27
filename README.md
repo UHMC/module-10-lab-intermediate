@@ -84,24 +84,15 @@ This section will not affect the contract code. It is written to practice docume
     * Account: \[your wallet address\]
     * Gas limit: 3000000
     * Value 0 wei
-7. Click the orange `Deploy` button ![orange-deploy-button.png](screenshots/orange-deploy-button.png).  
+4. In the next box, select the name of your coin in the dropdown, then click the orange `Deploy` button ![orange-deploy-button.png](screenshots/orange-deploy-button.png).  
     ![deploy-and-run-view.png](screenshots/deploy-and-run-view.png)  
 8. A smart contract, **[TokenName]** will be deployed to the blockchain.  
     ![contract-deployed.png](screenshots/contract-deployed.png)  
 9. Click the small arrow to the left of the deployed contract address to reveal the function calls available.  
     ![deployed-contract-view.png](screenshots/deployed-contract-view.png)  
-10. Click on the _printHello_ function to see the output "0: string: Hello, World".  
-    ![print-hello-called.png](screenshots/print-hello-called.png)  
 11. Click on the _die_ function to remove the smart contract from the blockchain.  
     ![die-called.png](screenshots/die-called.png)  
-
-3. The four fields should already be filled out with:
-    * Environment: Injected Web3 Rinkeby
-    * Account: \[your wallet address\]
-    * Gas limit: 3000000
-    * Value 0 wei
-4. In the next box, select the name of your coin in the dropdown, then click the 'Deploy' button.
-5. Click on the MetaMask plugin icon in the top right of your browser, then click 'CONFIRM' in the popup to allow the transaction.
+5. Click on the MetaMask plugin icon in the top right of your browser, then click `CONFIRM` in the popup to allow the transaction.
 6. If all went well, you should now see your contract in the Deployed Contracts section in Remix. You may also find it by searching your wallet address on [rinkeby.etherscan.io](https://rinkeby.etherscan.io/) or navigating through the interface in the MetaMask plugin.
 7. You can now interact with your contract by clicking the arrow on the left side of your deployed contract (in Remix) and then filling out the fields and clicking the buttons corresponding to methods in the contract. For example, clicking owner should return your wallet's address.
 
