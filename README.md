@@ -1,21 +1,19 @@
-Module 7 - Intermediate Lab: Creating An ERC20 Token
+Module 10 - Intermediate Lab: Creating An ERC20 Token
 =======================
 # Background
-Smart contracts can be implemented through the use of blockchain technology with the Ethereum network. They allow for binding agreements between network participants that are handled by network consensus instead of a third party.
-
-This assignment goes through the process of contract creation. Students will briefly implement the ERC20 interface using Solidity programming. Implementation of interfaces is a technique taught in CS1 classroom environments.
+Tokens can be created with blockchain technology through smart contracts on the Ethereum network. This lab creates a set of fungible tokens using a template Solidity smart contract which implements the ERC20 interface.
 
 # Meta-information
 
 | Attribute | Explanation |
 | ------------- | ------------- |
-| Summary | Create a basic smart contract on an Ethereum test network while going over every method of implementation of the ERC20 specification  |
-| Topics | Solidity programming, blockchain development  |
+| Summary | Create a basic token using smart contracts on an Ethereum test network. |
+| Topics | Tokens, Solidity, blockchain development, and Ethereum. |
 | Audience | Appropriate for CS1 or a later course. |
 | Difficulty | Completing the assignment is easy, as it is just editing a contract and deploying it. However, full understanding and extension of the contract can be difficult. |
-| Strengths | The strength of this assignment is that it allows students to get exposed to technology that they hear about all the time (blockchain) and creates a seed of learning that they can research further. |
-| Weaknesses | It may be difficult for students to extend their first smart contract. They might require more in-depth knowledge about how transactions work in blockchain settings. | 
-| Dependencies | Requires the understanding of implementing interfaces in an object-oriented language. It also requires the understanding of blockchain transactions in order to further extend past the assignment. |
+| Strengths | Allows students to get exposed to popular technology (blockchain, tokens/currencies, smart contracts) and provides a launch point for further token development. |
+| Weaknesses | May be difficult for students to extend the smart contract; omits finer details of transactions in blockchain settings. | 
+| Dependencies | Internet-connected computer with suitable browser (Chrome, Firefox, etc.) and access to the Remix IDE. |
 | Variants | Could be used in an introductory course of OOP languages, as means to introduce how to implement a specification. |
 
 # Assignment instructions (10 Minutes)
@@ -42,24 +40,24 @@ This section will not affect the contract code. It is written to practice docume
 
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
-| 4 | [insert token name here] | Name for your token. |
-| 6 | [insert wallet address to deploy here] | Address you created earlier. The smart contract must take funds from a wallet to initialize. |
-| 7 | [insert token symbol here] | Symbol to identify your token shorthand. (example: "UHMC") |
-| 8 | [insert token name here] | Name for your token. |
+| 4 | [insert token name here] | One-word name for your token. You should use CamelCase, as per Solidity convention. |
+| 6 | [insert wallet address to deploy here] | Your wallet address from your account in MetaMask. |
+| 7 | [insert token symbol here] | Shorthand symbol to identify your token (example: "UHMC"). |
+| 8 | [insert token name here] | One-word name for your token; same as above. |
 | 9 | [insert total supply of tokens here] | Total number of tokens in existance. |
-| 10 | [insert decimal denomination per token, up to 18] | How do you want to break apart your token? Ethereum allows a maximum of 18 decimals. |
+| 10 | [insert decimal denomination per token, up through 18] | Example given: 3 |
 
 ### Editing the contract constructor method
 
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
-| 107 | [TokenName] | The name of your token in CamelCase, as per Solidity convention. |
-| 121 | [insert token symbol here] | Write your token symbol here, in all CAPS. |
-| 122 | [insert token name here] | Write your token name here. |
-| 123 | [insert token decimal denomination here] | Write the decimal denomination. |
-| 125 | [insert token supply here] | Write the token supply, read line 124 to learn how to do this. |
-| 126 | [insert your wallet address here] | Paste your wallet address here, this line and line 127 create the original transfer of Ethereum to the smart contract in order to initialize it. |
-| 127 | [insert your wallet address here] | Paste your wallet address here, see above. |
+| 107 | [TokenName] | One-Word name for your token; same as above. |
+| 121 | [insert token symbol here] | Shorthand symbol to identify your token (example: "UHMC"); same as above. |
+| 122 | [insert token name here] | One-word name for your token; same as above. |
+| 123 | [insert token decimal denomination here] | Same as above. |
+| 125 | [insert token supply here] | Write the token supply, read line 124 to learn how to do this. e.g. 100 & 3 -> 100000 |
+| 126 | [insert your wallet address here] | Your wallet address from your account in MetaMask; same as above. |
+| 127 | [insert your wallet address here] | Your wallet address from your account in MetaMask; same as above. |
 
 ## Deploying your contract to the Rinkeby testnet
 1. After all the lines listed are edited, click on “Start to compile” on the top right corner of the Remix IDE.
@@ -70,9 +68,10 @@ This section will not affect the contract code. It is written to practice docume
     * Gas limit: 3000000
     * Value 0 wei
 4. In the next box, select the name of your coin in the dropdown, then click the 'Deploy' button.
-5. Click on the MetaMask plugin icon in the top right of your browser, then click 'CONFIRM' in the popup to allow the transaction.
-6. If all went well, you should now see your contract in the Deployed Contracts section in Remix. You may also find it by searching your wallet address on [rinkeby.etherscan.io](https://rinkeby.etherscan.io/) or navigating through the interface in the MetaMask plugin.
+5. If necessary, click on the MetaMask plugin icon in the top right of your browser, then click 'CONFIRM' in the popup to allow the transaction.
+6. If all went well, you should now see your contract in the Deployed Contracts section in Remix. You may also find it by searching your wallet address on [Etherscan][rinkeby.etherscan.io] or navigating through the interface in the MetaMask plugin.
 7. You can now interact with your contract by clicking the arrow on the left side of your deployed contract (in Remix) and then filling out the fields and clicking the buttons corresponding to methods in the contract. For example, clicking owner should return your wallet's address.
+8. Try transferring tokens to someone else and have them transfer their created tokens to you; then verify the transactions on [Etherscan][rinkeby.etherscan.io].
 
 # Credits
 Dr. Debasis Bhattacharya  
@@ -80,3 +79,5 @@ Mario Canul
 Saxon Knight  
 Assignment possible thanks to the work of [Moritz Neto](https://twitter.com/mrtzneto) for the original contract.  
 Special thanks to [James Maupin](https://github.com/jmsMaupin1) for help with testing and feedback.  
+
+[rinkeby.etherscan.io]: https://rinkeby.etherscan.io/
