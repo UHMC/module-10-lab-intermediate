@@ -18,7 +18,7 @@ This assignment goes through the process of contract creation. Students will bri
 | Dependencies | Requires the understanding of implementing interfaces in an object-oriented language. It also requires the understanding of blockchain transactions in order to further extend past the assignment. |
 | Variants | Could be used in an introductory course of OOP languages, as means to introduce how to implement a specification. |
 
-# Assignment instructions (20 Minutes)
+# Assignment instructions (10 Minutes)
 
 ## Setting up your wallet and test Ethereum
 1. Navigate to [MetaMask](https://metamask.io/) and install the extension for your browser (feel free to watch the introduction video, too).
