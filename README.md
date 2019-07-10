@@ -31,7 +31,8 @@ Tokens can be created with blockchain technology through smart contracts on the 
 10. A new tab sould open at https://www.rinkeby.io/#stats. On the left border of this page, click the middle button labeled 'Crypto Faucet'.
 11. For the next step, Twitter is recommended, but you may use any listed option which works for you. Follow the instructions on the page you are redirected to in order to get your wallet funded with test currency. (If using Twitter, be sure to use the link to the tweet itself which you pasted your wallet's public address into.)
     * Get your wallet address by clicking on the MetaMask icon in the top right of your browser and then clicking the account name to copy it to your clipboard (later, paste with Ctrl V).  
-    ![copy-address-to-clipboard.png](screenshots/copy-address-to-clipboard.png)
+    ![copy-address-to-clipboard.png](screenshots/copy-address-to-clipboard.png)  
+    ![copy-link-to-tweet.png](screenshots/copy-link-to-tweet.png)
 12. Wait until your account gets funded (up to 8 hours, 1 day, or 3 days, depending on your choice \[8 hours recommended\], but it may be as little as a few seconds or minutes).
 
 ## Editing the contract.sol file
