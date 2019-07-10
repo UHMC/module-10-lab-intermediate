@@ -36,7 +36,7 @@ Tokens can be created with blockchain technology through smart contracts on the 
 12. Wait until your account gets funded, checking your balance in MetaMask periodically.
 
 ## Editing the contract.sol file
-1. [Download the sample contract](contract.sol) and [open it using the Remix Solidity IDE.](https://remix.ethereum.org/)
+1. Copy the contents of the [sample contract](contract.sol) and paste into a new file in [the Remix Solidity IDE](https://remix.ethereum.org/).
 
 ### Editing the comment block
 This section will not affect the contract code. It is written to practice documentation and maintainance of code. 
