@@ -33,7 +33,7 @@ Tokens can be created with blockchain technology through smart contracts on the 
     * Get your wallet address by clicking on the MetaMask icon in the top right of your browser and then clicking the account name to copy it to your clipboard (later, paste with Ctrl V).  
     ![copy-address-to-clipboard.png](screenshots/copy-address-to-clipboard.png)  
     ![copy-link-to-tweet.png](screenshots/copy-link-to-tweet.png)
-12. Wait until your account gets funded (up to 8 hours, 1 day, or 3 days, depending on your choice \[8 hours recommended\], but it may be as little as a few seconds or minutes).
+12. Wait until your account gets funded, checking your balance in MetaMask periodically.
 
 ## Editing the contract.sol file
 1. [Download the sample contract](contract.sol) and [open it using the Remix Solidity IDE.](https://remix.ethereum.org/)
