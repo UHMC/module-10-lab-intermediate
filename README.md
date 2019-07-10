@@ -35,7 +35,7 @@ Tokens can be created with blockchain technology through smart contracts on the 
     ![copy-link-to-tweet.png](screenshots/copy-link-to-tweet.png)
 12. Wait until your account gets funded, checking your balance in MetaMask periodically.
 
-## Editing the contract.sol file
+## Editing the contract.sol file (note: this lab uses the older Remix layout)
 1. Copy the contents of the [sample contract](contract.sol) and paste into a new file in [the Remix Solidity IDE](https://remix.ethereum.org/).
 
 ### Editing the comment block
@@ -62,7 +62,7 @@ This section will not affect the contract code. It is written to practice docume
 | 126 | [insert your wallet address here] | Your wallet address from your account in MetaMask; same as above. |
 | 127 | [insert your wallet address here] | Your wallet address from your account in MetaMask; same as above. |
 
-## Deploying your contract to the Rinkeby testnet
+## Deploying your contract to the Rinkeby testnet (note: this lab uses the older Remix layout)
 1. After all the lines listed are edited, click on “Start to compile” on the top right corner of the Remix IDE.
 2. After successful compilation, click on the 'Run' tab.
 3. The four fields should already be filled out with:
