@@ -23,7 +23,7 @@ Tokens on a blockchain are even capable of acting as full, independent currencie
 | Difficulty | Completing the assignment is easy, as it is just editing a contract and deploying it. However, full understanding and extension of the contract can be difficult. |
 | Strengths | Allows students to get exposed to popular technology (blockchain, tokens/currencies, smart contracts) and provides a launch point for further token development. |
 | Weaknesses | May be difficult for students to extend the smart contract; omits finer details of transactions in blockchain settings. | 
-| Dependencies | Internet-connected computer with suitable browser (Chrome, Firefox, etc.) and access to the Remix IDE. |
+| Dependencies | Internet-connected computer with suitable browser (Chrome, Firefox, etc.), MetaMask, and access to the Remix IDE. |
 | Variants | Could be used in an introductory course of OOP languages, as means to introduce how to implement a specification. |
 
 # Assignment instructions (10 Minutes)
