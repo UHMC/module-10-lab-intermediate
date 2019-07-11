@@ -1,7 +1,17 @@
 Module 10 - Intermediate Lab: Creating An ERC20 Token
 =======================
 # Background
-Tokens in the context of blockchain are similar to our familiar understanding of tokens at a gaming venue or for services such as city transportation systems, but unlike these examples of tokens, there are fewer restrictions and greater opportunities for use available to tokens on a blockchain. In fact, tokens on a blockchain platform are even capable of acting as full, independent currencies. In this lab, we will create a supply of tokens which can be used in transactions just like any other currency. Tokens can be created through smart contracts on an Ethereum network. This lab creates a set of fungible tokens using a Solidity smart contract template which implements the ERC20 interface.
+Tokens in the context of blockchain are similar to our familiar understanding of tokens at a gaming venue or for services such as city transportation systems. Here are some scenarios where blockchain tokens might be useful:
+## Scenario 1
+Suppose a library wants to issue a rental currency which allows longer or more book rentals for patrons who volunteer at the library. The library could mint a supply of tokens and pay them to volunteers, who could then use them to purchase a longer rental period or additional book allowances.
+## Scenario 2
+Suppose some friends often have lunch together, but in some cases, one or more friends temporarily covers the cost of food for one or more other friends in the group. The group would like to keep track of the balances somehow. Each member or the group as a single entity could mint a supply of tokens and exchange them as a record of credit/debt between them in other currency such as USD.
+## Scenario 3
+A music festival plans to use scrip to allow vendors to sell water and food items but wishes to avoid paper litter and requiring patrons to download a specific app. They are, however, okay with requiring at least a wallet app which supports tokens, since this is a general requirement which many patrons may already meet. The festival mints a supply of coins and pays them out in exchange for currency at the entrance. Vendors present at the festival are prepared to accept the token for later reimbursement by the festival management in another form of currency or value.
+## Scenario 4
+A bus company plans to offer an allowance of a certain number of free bus rides to registered patrons over a certain age. The company mints a supply of tokens which are automatically distributed at a predetermined interval (say, once per month) to the registered patrons once their calculated age passes the threshold. The patrons are then able to redeem bus rides for the tokens in their monthly stipend.
+
+Tokens on a blockchain are even capable of acting as full, independent currencies. In this lab, we will create a supply of tokens which can be used in transactions just like any other currency. Tokens can be created through smart contracts on an Ethereum network. This lab creates a set of fungible tokens using a Solidity smart contract template which implements the ERC20 interface.
 
 # Meta-information
 
