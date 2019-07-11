@@ -1,7 +1,7 @@
 Module 10 - Intermediate Lab: Creating An ERC20 Token
 =======================
 # Background
-Tokens can be created with blockchain technology through smart contracts on the Ethereum network. This lab creates a set of fungible tokens using a template Solidity smart contract which implements the ERC20 interface.
+Tokens in the context of blockchain are similar to our familiar understanding of tokens at a gaming venue or for services such as city transportation systems, but unlike these examples of tokens, there are fewer restrictions and greater opportunities for use available to tokens on a blockchain. In fact, tokens on a blockchain platform are even capable of acting as full, independent currencies. In this lab, we will create a supply of tokens which can be used in transactions just like any other currency. Tokens can be created through smart contracts on an Ethereum network. This lab creates a set of fungible tokens using a Solidity smart contract template which implements the ERC20 interface.
 
 # Meta-information
 
