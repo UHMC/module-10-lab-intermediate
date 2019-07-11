@@ -84,7 +84,13 @@ This section will not affect the contract code. It is written to practice docume
 5. If necessary, click on the MetaMask plugin icon in the top right of your browser, then click 'CONFIRM' in the popup to allow the transaction.
 6. If all went well, you should now see your contract in the Deployed Contracts section in Remix. You may also find it by searching your wallet address on [Etherscan][rinkeby.etherscan.io] or navigating through the interface in the MetaMask plugin.
 7. You can now interact with your contract by clicking the arrow on the left side of your deployed contract (in Remix) and then filling out the fields and clicking the buttons corresponding to methods in the contract. For example, clicking owner should return your wallet's address.
-8. Try transferring tokens to someone else and have them transfer their created tokens to you; then verify the transactions on [Etherscan][rinkeby.etherscan.io].
+8. Let's make the tokens visible to MetaMask so that they can more easily be used like a currency. Click on the clipboard beside the deployed contract in Remix to copy the contract address.
+9. In MetaMask, click on the three-horizontal-bar menu button in the top left, then scroll down and click `Add Token`.
+10. Click `Custom Token` and paste the contract address into the `Token Contract Address` box; the rest should autofill. Click Next.
+11. On the next screen, you should see your token balance and symbol appear. Click `Add Tokens`.
+12. You can now send your tokens just like ether, but recipients will need to also add your token by its contract address in order to see their balance of your tokens in their MetaMask.
+13. You can switch currencies in MetaMask between ether and your other added tokens by clicking on the top left menu icon and selecting the currency you want to use.
+14. Try transferring tokens to someone else and have them transfer their created tokens to you; then verify the transactions in MetaMask and on [Etherscan][rinkeby.etherscan.io].
 
 # Credits
 Dr. Debasis Bhattacharya  
