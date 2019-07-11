@@ -44,7 +44,7 @@ This section will not affect the contract code. It is written to practice docume
 | Line | Characters to change | Explanation |
 | --- | --- | --- |
 | 4 | [insert token name here] | One-word name for your token. You should use CamelCase, as per Solidity convention. |
-| 6 | [insert wallet address to deploy here] | Your wallet address from your account in MetaMask. |
+| 6 | **[insert wallet address to deploy here]** | Your wallet address from your account in MetaMask. |
 | 7 | [insert token symbol here] | Shorthand symbol to identify your token (example: "UHMC"). |
 | 8 | [insert token name here] | One-word name for your token; same as above. |
 | 9 | [insert total supply of tokens here] | Total number of tokens in existance. |
@@ -59,8 +59,8 @@ This section will not affect the contract code. It is written to practice docume
 | 122 | [insert token name here] | One-word name for your token; same as above. |
 | 123 | [insert token decimal denomination here] | Same as above. |
 | 125 | [insert token supply here] | Write the token supply, read line 124 to learn how to do this. e.g. 100 & 3 -> 100000 |
-| 126 | [insert your wallet address here] | Your wallet address from your account in MetaMask; same as above. |
-| 127 | [insert your wallet address here] | Your wallet address from your account in MetaMask; same as above. |
+| 126 | **[insert your wallet address here]** | Your wallet address from your account in MetaMask; same as above. |
+| 127 | **[insert your wallet address here]** | Your wallet address from your account in MetaMask; same as above. |
 
 ## Deploying your contract to the Rinkeby testnet (note: this lab uses the older Remix layout)
 1. After all the lines listed are edited, click on “Start to compile” on the top right corner of the Remix IDE.
