@@ -1,7 +1,17 @@
 Module 10 - Intermediate Lab: Creating An ERC20 Token
 =======================
 # Background
-Tokens can be created with blockchain technology through smart contracts on the Ethereum network. This lab creates a set of fungible tokens using a template Solidity smart contract which implements the ERC20 interface.
+Tokens in the context of blockchain are similar to our familiar understanding of tokens at a gaming venue or for services such as city transportation systems. Here are some scenarios where blockchain tokens might be useful:
+## Scenario 1
+Suppose a library wants to issue a rental currency which allows longer or more book rentals for patrons who volunteer at the library. The library could mint a supply of tokens and pay them to volunteers, who could then use them to purchase a longer rental period or additional book allowances.
+## Scenario 2
+Suppose some friends often have lunch together, but in some cases, one or more friends temporarily covers the cost of food for one or more other friends in the group. The group would like to keep track of the balances somehow. Each member or the group as a single entity could mint a supply of tokens and exchange them as a record of credit/debt between them in other currency such as USD.
+## Scenario 3
+A music festival plans to use scrip to allow vendors to sell water and food items but wishes to avoid paper litter and requiring patrons to download a specific app. They are, however, okay with requiring at least a wallet app which supports tokens, since this is a general requirement which many patrons may already meet. The festival mints a supply of coins and pays them out in exchange for currency at the entrance. Vendors present at the festival are prepared to accept the token for later reimbursement by the festival management in another form of currency or value.
+## Scenario 4
+A bus company plans to offer an allowance of a certain number of free bus rides to registered patrons over a certain age. The company mints a supply of tokens which are automatically distributed at a predetermined interval (say, once per month) to the registered patrons once their calculated age passes the threshold. The patrons are then able to redeem bus rides for the tokens in their monthly stipend.
+
+Tokens on a blockchain are even capable of acting as full, independent currencies. In this lab, we will create a supply of tokens which can be used in transactions just like any other currency. Tokens can be created through smart contracts on an Ethereum network. This lab creates a set of fungible tokens using a Solidity smart contract template which implements the ERC20 interface.
 
 # Meta-information
 
@@ -13,7 +23,7 @@ Tokens can be created with blockchain technology through smart contracts on the 
 | Difficulty | Completing the assignment is easy, as it is just editing a contract and deploying it. However, full understanding and extension of the contract can be difficult. |
 | Strengths | Allows students to get exposed to popular technology (blockchain, tokens/currencies, smart contracts) and provides a launch point for further token development. |
 | Weaknesses | May be difficult for students to extend the smart contract; omits finer details of transactions in blockchain settings. | 
-| Dependencies | Internet-connected computer with suitable browser (Chrome, Firefox, etc.) and access to the Remix IDE. |
+| Dependencies | Internet-connected computer with suitable browser (Chrome, Firefox, etc.), MetaMask, and access to the Remix IDE. |
 | Variants | Could be used in an introductory course of OOP languages, as means to introduce how to implement a specification. |
 
 # Assignment instructions (10 Minutes)
@@ -74,7 +84,13 @@ This section will not affect the contract code. It is written to practice docume
 5. If necessary, click on the MetaMask plugin icon in the top right of your browser, then click 'CONFIRM' in the popup to allow the transaction.
 6. If all went well, you should now see your contract in the Deployed Contracts section in Remix. You may also find it by searching your wallet address on [Etherscan][rinkeby.etherscan.io] or navigating through the interface in the MetaMask plugin.
 7. You can now interact with your contract by clicking the arrow on the left side of your deployed contract (in Remix) and then filling out the fields and clicking the buttons corresponding to methods in the contract. For example, clicking owner should return your wallet's address.
-8. Try transferring tokens to someone else and have them transfer their created tokens to you; then verify the transactions on [Etherscan][rinkeby.etherscan.io].
+8. Let's make the tokens visible to MetaMask so that they can more easily be used like a currency. Click on the clipboard beside the deployed contract in Remix to copy the contract address.
+9. In MetaMask, click on the three-horizontal-bar menu button in the top left, then scroll down and click `Add Token`.
+10. Click `Custom Token` and paste the contract address into the `Token Contract Address` box; the rest should autofill. Click Next.
+11. On the next screen, you should see your token balance and symbol appear. Click `Add Tokens`.
+12. You can now send your tokens just like ether, but recipients will need to also add your token by its contract address in order to see their balance of your tokens in their MetaMask.
+13. You can switch currencies in MetaMask between ether and your other added tokens by clicking on the top left menu icon and selecting the currency you want to use.
+14. Try transferring tokens to someone else and have them transfer their created tokens to you; then verify the transactions in MetaMask and on [Etherscan][rinkeby.etherscan.io].
 
 # Credits
 Dr. Debasis Bhattacharya  
